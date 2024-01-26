@@ -77,7 +77,7 @@ Additionally, packages required to run the tests and build the documentation are
 
     $ git clone git@github.com:cblearn/cblearn.git
     $ cd cblearn
-    $ pip install -e.[tests,docs,torch,wrapper]
+    $ pip install -e .[tests,docs,torch,wrapper]
 
 The ``-e`` option installs the package in developer mode such that changes in the code are considered directly without re-installation.
 
